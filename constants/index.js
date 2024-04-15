@@ -97,16 +97,16 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
+    link: 'https://twitter.com/LuisRio50739101',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
+    link: 'https://www.linkedin.com/in/luis-riofrio/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/_viggi.g_/',
+    link: 'https://www.instagram.com/liberty_trading_club/',
   },
 ];

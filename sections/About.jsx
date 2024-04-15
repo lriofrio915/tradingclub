@@ -13,7 +13,7 @@ const About = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.06 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
@@ -25,7 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> Liberty </span> es una comunidad de traders que se reune cada domingo por Discord para hacer cosas de traders, realizamos el backtesting semanal, revisamos gráficas, solventamos dudas de los miembros del club, analizamos los <span className="font-extrabold">proyectos cripto</span> de nuestro portafolio. <span className="font-extrabold">En el Club de Trading</span> siempre tienes disponible las clases actualizadas para aprender la estrategia de day trading y la de <span className="font-extrabold">criptoactivos.</span>
+        <span className="font-extrabold"> Liberty </span> es una comunidad de traders que se reúne cada domingo para hacer cosas de traders, realizamos backtesting semanal, revisamos gráficas, solventamos dudas de los miembros del club, analizamos los <span className="font-extrabold">proyectos cripto</span> de nuestro portafolio. <span className="font-extrabold">En el Club de Trading</span> siempre tienes disponible las clases actualizadas de la estrategia de day trading y la estrategia con <span className="font-extrabold">acciones y criptoactivos.</span>
       </motion.p>
 
       <motion.img

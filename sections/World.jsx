@@ -11,7 +11,7 @@ const World = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.06 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title="| Traders en el Mundo" textStyles="text-center" />
