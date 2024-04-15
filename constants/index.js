@@ -1,22 +1,22 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'Índice Nasdaq',
-  },
-  {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/materias-primas.jpg',
     title: 'Materias Primas',
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
+    id: 'world-2',
+    imgUrl: '/nasdaqindex.jpg',
+    title: 'Índices',
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/acciones.jpg',
     title: 'Acciones',
   },
   {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
+    id: 'world-4',
+    imgUrl: '/criptomarket.png',
     title: 'Criptoactivos',
   },
 ];
@@ -44,49 +44,49 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/ninjatrader-02.jpeg',
     title: 'NinjaTrader',
     subtitle:
         'Ninja Trader es una plataforma de trading galardonada especializada en operaciones con Futuros y Acciones.',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/metatrader-01.png',
     title: 'MetaTrader',
     subtitle:
         'Es una plataforma multimercado que permite realizar operaciones con programas de trading algorítmico.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/tradingview-02.png',
     title: 'TradingView',
     subtitle:
         'Plataforma de trading usada para el análisis técnico de diferentes activos en múltiples mercados.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/ib-03.jpeg',
     title: 'Interactive Broker',
     subtitle:
         'Institución financiera regulada por la US Securities and Exchange Commission. Broker de confianza para invertir en acciones, opciones, futuros y bonos.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/darwinex-01.png',
     title: 'Darwinex',
     subtitle:
         'Es una gestora y broker multiactivo fundada en 2012. Empresa privada que da acceso a capital semilla a traders con visión de largo plazo.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/binance4.jpeg',
     title: 'Binance',
     subtitle:
         'Binance Holdings es una compañía global ​que opera la más grande empresa de intercambio en términos de volumen diario de trading de criptomonedas. ',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/swiseticon.jpeg',
     title: 'Swiset',
     subtitle:
         'Es una poderosa herramienta de trading para medir y gestionar la operativa diaria del trader de forma automatizada.',
   },
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/brunomeza-logo1.png',
     title: 'Replicadores BrunoMeza',
     subtitle:
         'Estos avanzados replicadores permiten realizar operaciones de trading desde una única cuenta hacia varias cuentas de otros brokers.',

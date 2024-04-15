@@ -23,7 +23,7 @@ const Feedback = () => (
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">Founder of Liberty</p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-          “Tener una estrategia clara y medirla es clave para el desarrollo de un buen sistema de trading. Forma parte de nuestra comunidad y conviértete en Trader, empieza a hacer cosas de traders.”
+          “Tener clara tu estrategia es clave para el desarrollo de un buen sistema de trading pero medir y analizar el resultado de tus operaciones de forma continua es vital para mantenerte rentable en el tiempo.”
         </p>
       </motion.div>
 
@@ -31,7 +31,7 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center item-center"
       >
-        <img src="/planet-09.png" alt="planet" className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]" />
+        <img src="/entreprenur2.jpg" alt="planet" className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]" />
         <motion.div
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
