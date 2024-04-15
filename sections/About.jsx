@@ -25,7 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> Liberty </span> es una comunidad de traders que se reúne cada domingo para hacer cosas de traders, realizamos backtesting semanal, revisamos gráficas, solventamos dudas de los miembros del club, analizamos los <span className="font-extrabold">proyectos cripto</span> de nuestro portafolio. <span className="font-extrabold">En el Club de Trading</span> siempre tienes disponible las clases actualizadas de la estrategia de day trading y la estrategia con <span className="font-extrabold">acciones y criptoactivos.</span>
+        <span className="font-extrabold"> Liberty </span> es una comunidad de traders que se reúne cada domingo para hacer cosas de traders, realizamos backtesting semanal, revisamos gráficas, solventamos dudas de los miembros del club, analizamos los <span className="font-extrabold">proyectos cripto</span> de nuestro portafolio. <span className="font-extrabold">En el Club de Trading</span> siempre tienes disponible las clases actualizadas de nuestras <span className="font-extrabold">estrategias de inversión.</span>
       </motion.p>
 
       <motion.img

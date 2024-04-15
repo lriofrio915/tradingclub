@@ -18,7 +18,7 @@ const World = () => (
       <TitleText
         title={(
           <>
-            Conoce a otros traders al rededor del mundo y forma parte de una comunidad.
+            Conoce a otros traders alrededor del mundo y forma parte de una comunidad
           </>
         )}
         textStyles="text-center"

@@ -23,7 +23,7 @@ const Feedback = () => (
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">Founder of Liberty</p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-          “Tener clara tu estrategia es clave para el desarrollo de un buen sistema de trading pero medir y analizar el resultado de tus operaciones de forma continua es vital para mantenerte rentable en el tiempo.”
+          “Tener los parámetros claros es importante, gestionar el riesgo es vital. Medir y analizar el resultado de tus operaciones de forma continua hará que te mantengas rentable en el tiempo.”
         </p>
       </motion.div>
 
