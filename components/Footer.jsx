@@ -1,8 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { socials } from "../constants";
-import Link from "next/link";
 
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
@@ -21,7 +21,7 @@ const Footer = () => (
           Únete al Trading Club
         </h4>
         <Link
-          href="https://www.boomslag.com/courses/view/tradingclub"
+          href='https://www.boomslag.com/courses/view/tradingclub'
           target="_blank"
         >
           <button
