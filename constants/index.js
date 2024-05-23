@@ -29,10 +29,10 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/search.svg',
     title: 'Consistencia',
     subtitle:
-        'Convertirse en Trader no sucede de la noche a la mañana, por esta razón nos reunimos de forma online todos los domingos.',
+        'Convertirse en Trader no sucede de la noche a la mañana, por esta razón somos una comunidad de Traders activos.',
   },
   {
     imgUrl: '/headset.svg',
