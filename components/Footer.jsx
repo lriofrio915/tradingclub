@@ -1,11 +1,12 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { socials } from "../constants";
+import Link from 'next/link';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
 
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -21,14 +22,14 @@ const Footer = () => (
           Únete al Trading Club
         </h4>
         <Link
-          href='https://www.boomslag.com/courses/view/tradingclub'
+          href="https://www.boomslag.com/courses/view/tradingclub"
           target="_blank"
         >
           <button
             type="button"
             className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
           >
-            <img
+            <Image
               src="/headset.svg"
               alt="headset"
               className="w-[24px] h-[24px] object-contain"
@@ -57,7 +58,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
                   src={social.url}
                   alt={social.name}
                   className="w-[24px] h-[24px] object-contain"
