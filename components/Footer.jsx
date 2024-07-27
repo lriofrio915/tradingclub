@@ -32,7 +32,9 @@ const Footer = () => (
             <Image
               src="/headset.svg"
               alt="headset"
-              className="w-[24px] h-[24px] object-contain"
+              width={24}
+              height={24}
+              className="object-contain"
             />
             <span className="font-normal text-[16px] text-white">
               Inscribirme
@@ -52,18 +54,20 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a
-                key={social.name}
-                href={social.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src={social.url}
-                  alt={social.name}
-                  className="w-[24px] h-[24px] object-contain"
-                />
-              </a>
+              <Link
+              key={social.name}
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={social.url}
+                alt={social.name}
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+            </Link>
             ))}
           </div>
         </div>
