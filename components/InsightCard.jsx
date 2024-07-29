@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
 import Link from "next/link";
+import { fadeIn } from "../utils/motion";
 
 const InsightCard = ({ index, imgUrl, title, subtitle, openAccount }) => (
   <motion.div
