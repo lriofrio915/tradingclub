@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "../styles";
+import Image from 'next/image';
+import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
   <div className="flex-1 flex-col sm:max-w-[250px] min-w-[210px]">
