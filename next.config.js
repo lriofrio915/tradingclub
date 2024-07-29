@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-};
-
-module.exports = nextConfig;
+    images: {
+      domains: ['luis-liberty.s3.us-east-2.amazonaws.com'],
+    },
+  };
+  
+  module.exports = nextConfig;
+  

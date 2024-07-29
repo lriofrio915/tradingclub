@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { socials } from "../constants";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -22,15 +22,16 @@ const Footer = () => (
           Únete al Trading Club
         </h4>
         <Link
-          href="https://www.boomslag.com/courses/view/tradingclub"
+          href="https://www.boomslag.com/@/luisRiofrio"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <button
             type="button"
             className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
           >
             <Image
-              src="/headset.svg"
+              src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/headset.svg"
               alt="headset"
               width={24}
               height={24}
@@ -52,22 +53,23 @@ const Footer = () => (
             Copyright © 2024 Liberty Trading Club. All Rights Reserved.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 z-10">
             {socials.map((social) => (
               <Link
-              key={social.name}
-              href={social.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={social.url}
-                alt={social.name}
-                width={24}
-                height={24}
-                className="object-contain"
-              />
-            </Link>
+                key={social.name}
+                href={social.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative"
+              >
+                <Image
+                  src={social.url}
+                  alt={social.name}
+                  width={24}
+                  height={24}
+                  className="object-contain"
+                />
+              </Link>
             ))}
           </div>
         </div>

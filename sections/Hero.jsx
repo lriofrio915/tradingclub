@@ -38,7 +38,7 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] sm:-top-[15px] -top-[10px]" />
         <Image
-          src="/ib-01.jpeg"
+          src="https://luis-liberty.s3.us-east-2.amazonaws.com/assets/hero-01.jpeg"
           alt="cover"
           width={1920}
           height={1080}
@@ -47,7 +47,7 @@ const Hero = () => (
 
         <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 2xl:-ml-[100px]">
           <motion.img
-            src="/stamp.png"
+            src="https://luis-liberty.s3.us-east-2.amazonaws.com/assets/stamp.png"
             alt="stamp"
             className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain "
             animate={{ rotate: 360 }}

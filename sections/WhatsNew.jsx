@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 import styles from '../styles';
 import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
@@ -33,11 +33,13 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          src="/financial.png"
-          alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
-        />
+        <Image
+      src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/financial.png"
+      alt="get-started"
+      width={450}
+      height={450}
+      className="object-contain"
+    />
       </motion.div>
     </motion.div>
   </section>

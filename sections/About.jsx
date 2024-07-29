@@ -25,12 +25,12 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> Liberty </span> es una comunidad de traders que desarrollan su consistencia operativa, realizamos backtesting, revisamos gráficas, solventamos dudas de los miembros del club, analizamos las acciones y <span className="font-extrabold">proyectos cripto</span> de nuestro portafolio.
+        <span className="font-extrabold"> Liberty </span> es una comunidad de traders desarrollando consistencia operativa. Realizamos backtesting, revisamos gráficas, solventamos dudas de los miembros del club, analizamos las acciones y <span className="font-extrabold">proyectos cripto</span> de nuestro portafolio. Hacemos trading.
       </motion.p>
 
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
+        src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/arrow-down.svg"
         alt="arrow-down"
         className="w-[18px] h-[28px] object-contain mt-[28px]"
       />

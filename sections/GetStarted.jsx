@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
-
+import Image from 'next/image';
 import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
@@ -20,7 +20,13 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         className={`${styles.flexCenter} flex-1`}
       >
-        <img src="/api.png" alt="Get-Started" className="w-[90%] h-[90%] object-content" />
+        <Image
+          src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/api.png"
+          alt="Get-Started"
+          width={450}
+          height={450}
+          className="object-contain"
+    />
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
