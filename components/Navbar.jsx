@@ -25,8 +25,6 @@ const Navbar = () => (
       <h2 className="font-extrabold test-[24px] text-white leading-[30px]">
         LIBERTY
       </h2>
-
-      {/* <img src="/menu.svg" alt="menu" className="w-[24px] h-[24px] object-contain" /> */}
     </div>
   </motion.nav>
 );

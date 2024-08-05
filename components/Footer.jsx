@@ -58,7 +58,7 @@ const Footer = () => (
         </Link>
         <p className="">Curso De Cero a Trader y de Trader a Gestor</p>
         <Link
-          href="https://www.boomslag.com/courses/view/tradingclub"
+          href="https://www.boomslag.com/courses/view/curso-completo-futuros-cfds"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
@@ -88,7 +88,6 @@ const Footer = () => (
               height={240}
               className="object-contain"
             />
-            {/* <h4 className="font-extrabold text-[24px] text-white">LIBERTY</h4> */}
           </div>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2024 Liberty Trading Club. All Rights Reserved.
