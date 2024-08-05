@@ -73,7 +73,7 @@ export const insights = [
   },
   {
     openAccount: 'https://bit.ly/4c54uNK',
-    imgUrl: 'https://luis-liberty.s3.us-east-2.amazonaws.com/insights/pjcapital.jpeg',
+    imgUrl: 'https://luis-liberty.s3.us-east-2.amazonaws.com/insights/pj1.jpeg',
     title: 'PJ Capital',
     subtitle:
         'Empresa especializada en cuentas fondeadas, pases directos y recursos avanzados que permiten operar en los mercados financieros.',

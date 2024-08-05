@@ -76,10 +76,10 @@ const Footer = () => (
         </Link>
       </div>
 
-      <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+      <div className="flex flex-col items-center md:items-stretch">
+        <div className="mb-[50px] h-[2px] bg-white opacity-10 w-full" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
+        <div className="flex flex-col md:flex-row items-center justify-between flex-wrap gap-4 w-full">
           <div className="flex gap-4">
             <Image
               src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/fulllogo_transparent_nobuffer.png"
@@ -89,8 +89,8 @@ const Footer = () => (
               className="object-contain"
             />
           </div>
-          <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2024 Liberty Trading Club. All Rights Reserved.
+          <p className="font-normal text-[14px] text-white opacity-50 text-center md:text-left">
+            Copyright © All Rights Reserved 2024.
           </p>
 
           <div className="flex gap-4 z-10">
