@@ -104,22 +104,22 @@ export const insights = [
 export const socials = [
   {
     name: 'facebook',
-    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/facebook.svg',
+    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/icons8-facebook-nuevo.svg',
     link: 'https://www.facebook.com/EntrenamientoLiberty',
   },
-  /* {
-    name: 'twitter',
-    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/twitter.svg',
-    link: 'https://twitter.com/LuisRio50739101',
-  }, */
+  {
+    name: 'discord',
+    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/icons8-logotipo-de-la-discordia.svg',
+    link: 'https://discord.gg/mPjwDRf5',
+  },
   {
     name: 'linkedin',
-    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/linkedin.svg',
+    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/icons8-linkedin.svg',
     link: 'https://www.linkedin.com/in/luis-riofrio/',
   },
   {
     name: 'instagram',
-    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/instagram.svg',
+    url: 'https://luis-liberty.s3.us-east-2.amazonaws.com/icons/icons8-instagram.svg',
     link: 'https://www.instagram.com/liberty_trading_club/',
   },
 ];
