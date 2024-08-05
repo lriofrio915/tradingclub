@@ -80,7 +80,16 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">LIBERTY</h4>
+          <div className="flex gap-4">
+            <Image
+              src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/fulllogo_transparent_nobuffer.png"
+              alt="search"
+              width={240}
+              height={240}
+              className="object-contain"
+            />
+            {/* <h4 className="font-extrabold text-[24px] text-white">LIBERTY</h4> */}
+          </div>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2024 Liberty Trading Club. All Rights Reserved.
           </p>
