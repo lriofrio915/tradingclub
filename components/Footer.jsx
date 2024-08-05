@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { socials } from "../constants";
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -16,30 +16,63 @@ const Footer = () => (
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-      <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Únete al Trading Club
-        </h4>
+      <h4 className="text-center font-bold md:text-[64px] text-[44px] text-white">
+        Únete al Trading Club
+      </h4>
+      <div className="flex items-center justify-between flex-wrap gap-5 md:text-[30px] text-[24px] text-white">
+        <p className="">Coaching en Trading de Futuros y CFDs</p>
         <Link
-          href="https://www.boomslag.com/@/luisRiofrio"
+          href="https://www.boomslag.com/courses/view/tradingclub"
           target="_blank"
           rel="noopener noreferrer"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
         >
-          <button
-            type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-          >
-            <Image
-              src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/headset.svg"
-              alt="headset"
-              width={24}
-              height={24}
-              className="object-contain"
-            />
-            <span className="font-normal text-[16px] text-white">
-              Inscribirme
-            </span>
-          </button>
+          <Image
+            src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/headset.svg"
+            alt="headset"
+            width={24}
+            height={24}
+            className="object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Inscribirme
+          </span>
+        </Link>
+        <p className="">Coaching de Inversiones en Blockchain</p>
+        <Link
+          href="https://www.boomslag.com/courses/view/inversiones-blockchain"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        >
+          <Image
+            src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/headset.svg"
+            alt="headset"
+            width={24}
+            height={24}
+            className="object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Inscribirme
+          </span>
+        </Link>
+        <p className="">Curso De Cero a Trader y de Trader a Gestor</p>
+        <Link
+          href="https://www.boomslag.com/courses/view/tradingclub"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        >
+          <Image
+            src="https://luis-liberty.s3.us-east-2.amazonaws.com/icons/headset.svg"
+            alt="headset"
+            width={24}
+            height={24}
+            className="object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Inscribirme
+          </span>
         </Link>
       </div>
 

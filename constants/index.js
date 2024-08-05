@@ -66,7 +66,7 @@ export const insights = [
   },
   {
     openAccount: 'https://bit.ly/4dj7asj',
-    imgUrl: 'https://luis-liberty.s3.us-east-2.amazonaws.com/insights/duo.png',
+    imgUrl: 'https://luis-liberty.s3.us-east-2.amazonaws.com/insights/duotraders.jpeg',
     title: 'Duo Markets',
     subtitle:
         'Bróker introductorio de Eurotrade SA. Ofrece servicios de ejecución y custodia. Proveedor de servicios financieros autorizado y regulado. ',

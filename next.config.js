@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['luis-liberty.s3.us-east-2.amazonaws.com'],
-    },
-  };
-  
-  module.exports = nextConfig;
-  
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'luis-liberty.s3.us-east-2.amazonaws.com',
+        pathname: '/**',
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;
