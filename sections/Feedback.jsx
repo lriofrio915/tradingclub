@@ -39,9 +39,9 @@ const Feedback = () => (
         <Image
           src="https://luis-liberty.s3.us-east-2.amazonaws.com/assets/luisRiofrio.jpg"
           alt="entrepreneur"
-          width={1920}
+          width={610}
           height={610}
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px] object-[0_10%]"
+          className="lg:h-[810px] w-full h-[610px] min-h-[210px] object-cover rounded-[40px] object-[0_10%]"
         />
         <motion.div
           variants={zoomIn(0.4, 1)}
